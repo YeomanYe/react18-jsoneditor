@@ -1,0 +1,24 @@
+{
+  "name": "react18-jsoneditor",
+  "version": "1.0.0",
+  "description": "jsoneditor's react implementation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "yeming",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsoneditor": "^9.5.1",
+    "@types/react": "^18.0.15",
+    "react": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "jsoneditor": "^9.9.0"
+  },
+  "peerDependencies": {
+    "react": "17 || 18",
+    "jsoneditor": "^9.0.0"
+  }
+}

@@ -4,6 +4,7 @@
   "description": "jsoneditor's react implementation",
   "main": "dist/index.js",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "tsc"
   },
   "author": "yeming",
